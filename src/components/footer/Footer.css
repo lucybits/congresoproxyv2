@@ -1,0 +1,120 @@
+.footer {
+  margin-top: 10vh;
+  background: linear-gradient(to bottom, #01031b, #020529);
+  color: #859bbf;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-content {
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  max-width: 1200px;
+  gap: 50px;
+  justify-items: center;
+  align-items: start;
+}
+
+.footer-text-wrapper {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer-text {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.footer-links-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: list-wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.footer-link {
+  color: #859bbf;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #3fc6d8;
+}
+
+.footer-divider {
+  margin: 40px auto;
+  width: 80%;
+  height: 1px;
+  background: linear-gradient(to right, #030218, #061a8a, #030218);
+  box-shadow: 0 1px 20px rgba(42, 88, 108, 0.464);
+  grid-column: 1 / -1;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #7ca8ef;
+  text-align: center;
+  width: 100%;
+  grid-column: 1 / -1;
+}
+
+.heartbeat {
+  color: #49e2d5;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  animation: heartbeat 1.5s infinite ease-in-out;
+  transition: transform 0.3s ease;
+}
+.footer-tagline {
+    background-color: #040a2f;
+    color: rgb(23, 165, 248);
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+@keyframes heartbeat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+}
+
+.heartbeat:hover {
+  transform: scale(1.5);
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    margin-top: 15vh;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-text-wrapper,
+  .footer-links-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+}

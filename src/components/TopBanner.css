@@ -1,0 +1,29 @@
+.top-banner {
+    width: 100%;
+    background: linear-gradient(to right, #4e4ee6, #00FFFF);
+    color: rgb(0, 0, 0);
+    padding: 5px 0;
+    position: fixed;
+    font-weight: 800;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    overflow: hidden;
+  }
+  
+  .scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 20%;
+    animation: scrollText 40s linear infinite;
+    font-size: 14px;
+  }
+  
+  @keyframes scrollText {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }

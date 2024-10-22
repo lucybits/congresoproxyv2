@@ -1,0 +1,80 @@
+{
+  "messages": {
+    "welcome": "👋 ¡Hola! Soy Proxie, tu asistente virtual para el congreso. Estoy aquí para ayudarte con las preguntas más frecuentes. ¿Sobre qué te gustaría saber hoy? 😊\n\n1. ¿Qué son los paquetes de asistencia?\n2. ¿Cuál es la fecha del próximo congreso?\n3. ¿Cuáles son las redes sociales del congreso?\n4. ¿Dónde están ubicados?\n5. ¿Cómo puedo participar en el congreso o cuándo hay reclutamiento?\n6. ¿Cómo funciona nuestra plataforma?\n7. ¿Cuáles son nuestros servicios?\n8. ¿Cómo contactar soporte?",
+    "invalidInput": "😊 Disculpa, parece que no he entendido bien lo que querías decir. No te preocupes, es algo que suele pasar. ¿Podrías por favor teclear un número del 1 al 8? Me encantará ayudarte con eso.",
+    "invalidNumber": "🙈 ¡Vaya! Ese número no es válido. Por favor, selecciona una opción entre 1 y 8."
+  },
+
+  "responses": {
+    "1": [
+      "¡Hola! 👋 Tenemos tres paquetes súper cool para el congreso: MEGABYTE 💻, GIGABYTE 🚀 y TERABYTE 🌟. Cada uno tiene beneficios geniales.",
+      "¡Hey! 😄 Tenemos MEGABYTE 🔹, GIGABYTE 🔷 y TERABYTE 💎. ¡Todos son increíbles!",
+      "¡Bienvenido al mundo de posibilidades! 🌠 Tenemos nuestros paquetes MEGABYTE, GIGABYTE y TERABYTE que son como niveles en un videojuego 🎮.",
+      "¡Hola, futuro congresista! 🤓 Tenemos MEGABYTE 🚲, GIGABYTE 🏍️ y TERABYTE 🚀. ¡Cada uno te llevará más lejos!",
+      "¡Hola, tech-enthusiast! 🖥️ Nuestros paquetes son como upgrades de PC: MEGABYTE 💾, GIGABYTE 💽 y TERABYTE 💿. ¡Elige tu nivel de potencia!",
+      "¡Hey, bienvenido al servidor del congreso! 🎮 Tenemos tres roles épicos para ti: MEGABYTE, GIGABYTE  y TERABYTE. ¡Sube de nivel con nosotros!",
+      "¡Saludos! 🌐 Nuestros paquetes son los siguientes: MEGABYTE, GIGABYTE, y TERABYTE. ¡Navega a tu ritmo!",
+      "¡Hola, futuro innovador! 💡 Tenemos tres paquetes que son pura tecnología: MEGABYTE, GIGABYTE y TERABYTE. ¡Elige el que más te convenga!",
+      "¡Bienvenido al hub del congreso! 🌟 Nuestros paquetes son los siguientes MEGABYTE, GIGABYTE y TERABYTE. ¡Haz commit a tu favorito!",
+      "¡Hola, aventurero de la TECHnología! Tenemos tres misiones para ti: MEGABYTE, GIGABYTE y TERABYTE. ¡Elige el que quieras!"
+    ],
+    
+    "2": [
+      "¡Hey! 👋 La fecha del próximo congreso aún no ha sido anunciada, pero no te preocupes. 😊 Mantente al tanto de nuestras redes sociales para ser el primero en enterarte. ¡Va a estar increíble! 🎉",
+      "¡Hola, futuro congresista! 🚀 Estamos trabajando en la fecha exacta del congreso. Síguenos en redes para no perderte ninguna novedad. ¡Será épico! 💯",
+      "¡Qué tal! 😄 Aún no tenemos la fecha para el próximo congreso, pero estamos super emocionados. 🤩 Síguenos en nuestras redes y sé el primero en saberlo. ¡Te va a encantar! 💖",
+      "¡Hola, hola! 🌟 Estamos finalizando los detalles para el próximo congreso. La fecha se anunciará pronto, así que mantente conectado. ¡Prepárate para algo increíble! 🎊",
+      "¡Hey, tech-enthusiast! 🖥️ Pronto revelaremos la fecha del congreso. ¡Va a ser una locura! 🤯",
+      "¡Saludos, colega! 💡 La fecha del próximo congreso está en camino. Mantente al tanto de nuestros canales oficiales. ¡Te prometemos que la espera valdrá la pena! 🏆"
+    ],
+    "3": [
+      "¡Hola, proxy-lover! 👋 Conéctate con nosotros en el ciberespacio: Twitter: @****, Facebook: /**** 👍, Instagram: @**** 📸. ¡Te esperamos para compartir momentos épicos! ",
+      "¡Hey, futuro congresista! 😎 Únete a nuestra comunidad online: Twitter @****, Facebook /****, Instagram @****",
+      "Síguenos en nuestras redes y no te pierdas ni un bit de diversión: Twitter: @****, Facebook: /****, Instagram: @****. ¡Hagamos un super team! 🦸‍♂️🦸‍♀️",
+      "¡Saludos, tech-enthusiast! 🌟 Conéctate con nosotros en todas las plataformas: @**** en Twitter, /**** en Facebook y @**** en Instagram. 😎🖥️",
+      "Para estar al día con todas nuestras actividades, síguenos en Twitter (@****), Facebook (/***) e Instagram (@****). 💡",
+      "🦸 Te invitamos a nuestro cuartel general en las redes: Twitter: @****, Facebook: /****, Instagram: @****. ¡Dáte prisa, compañero!"
+    ],
+    "4": [
+      "Nuestras oficinas están ubicadas en ****. 🏢 El congreso se llevará a cabo en ****. pero la ubicación exacta se anunciará más cerca de la fecha del evento. ¡Estamos emocionados de verte allí! 🎉",
+      "La dirección de nuestras oficinas es ****. El evento se celebrará en ****. ¡y te daremos más información súper pronto!",
+      "Estamos ubicados en ****. El congreso será en ****. y la ubicación final se comunicará más adelante. ¡Mantente al tanto! 😉",
+      "Puedes encontrarnos en ****. En cuanto al congreso, se realizará en ****. y proporcionaremos más detalles sobre la ubicación próximamente. ¡Va a ser algo grande! 🤯",
+      "🌟 Nuestras oficinas se encuentran en ****. El congreso está programado para realizarse en ****. y compartiremos la ubicación específica en las próximas semanas. ¡Espéralo, será épico! 🏆",
+      "¡Hey, proxy-lover! 👾 Te informamos que nuestras oficinas están situadas en ****. Con respecto al congreso, este tendrá lugar en ****. La ubicación exacta dentro de este recinto se comunicará con mayor precisión a medida que se acerque la fecha del evento. ¡Estamos super emocionados, te veo allí! 🎊",
+      "🤓 En respuesta a tu consulta, nos complace informarte que nuestras oficinas corporativas se encuentran en ****. En cuanto al congreso, se llevará a cabo en **** Le proporcionaremos información más detallada sobre la localización específica en una fecha próxima.",
+      "Agradecemos su interés en nuestra ubicación. Nuestras oficinas centrales están establecidas en ****. Con respecto al congreso, hemos seleccionado ****. como sede. Los detalles precisos sobre la ubicación dentro de este espacio se comunicarán oportunamente a todos los participantes registrados. 🚀"
+    ],
+    "5": [
+      "Para participar en el congreso, debe estar atento a nuestras convocatorias de reclutamiento. Generalmente, abrimos el proceso de selección 6 meses antes del evento. Siga nuestras redes sociales para no perderse ningún anuncio.",
+      "El proceso de selección para participar en el congreso suele abrirse seis meses antes del evento. Síganos en redes para más detalles.",
+      "Para participar, es importante estar pendiente de nuestros anuncios de reclutamiento, que normalmente comienzan 6 meses antes del evento.",
+      "Las convocatorias para participar en el congreso se abren aproximadamente medio año antes del evento. Manténgase informado a través de nuestras redes oficiales.",
+      "Si quiere ser parte del congreso, esté atento a nuestras redes sociales. Solemos iniciar el proceso de selección unos 6 meses antes de la fecha del evento.",
+      "Le informamos que para participar en el congreso, es necesario estar atento a nuestras convocatorias de reclutamiento. Por lo general, iniciamos el proceso de selección con una antelación de 6 meses respecto a la fecha del evento. Le recomendamos encarecidamente que siga nuestras redes sociales oficiales para mantenerse informado sobre estos anuncios.",
+      "En respuesta a su interés en participar en el congreso, le comunicamos que el proceso de selección habitualmente comienza seis meses antes de la fecha del evento. Le sugerimos que se mantenga al tanto de nuestras plataformas de comunicación oficiales para recibir información oportuna sobre las convocatorias."
+    ],
+    "6": [
+      "LOREM IPSUM SIT AMET"
+    ],
+    "7": [
+      "Ofrecemos servicios de mentoría, talleres, y networking para facilitar el aprendizaje y la conexión entre los asistentes.",
+      "Nuestros servicios incluyen talleres, conferencias y oportunidades de networking para mejorar la experiencia de los participantes.",
+      "Los servicios que ofrecemos abarcan mentorías, talleres interactivos y diversas actividades de networking.",
+      "Proporcionamos una variedad de servicios, incluidos talleres de desarrollo personal y profesional, así como oportunidades para establecer contactos.",
+      "Nuestros servicios están diseñados para ofrecer experiencias enriquecedoras a través de talleres, conferencias y actividades de networking.",
+      "Le informamos que contamos con una amplia gama de servicios, entre los cuales se incluyen mentorías, talleres prácticos y sesiones de networking para fomentar el aprendizaje y la colaboración entre los participantes del congreso.",
+      "En cuanto a los servicios que ofrecemos, le confirmamos que disponemos de una serie de talleres, oportunidades de mentoría y actividades de networking, todos orientados a enriquecer la experiencia de los asistentes al congreso.",
+      "Agradecemos el interés en nuestros servicios. En nuestro congreso, ofrecemos una variedad de actividades, incluidas mentorías, talleres y oportunidades para hacer networking, con el fin de enriquecer la experiencia de todos los participantes."
+    ],
+    "8": [
+      "Puede contactar soporte a través de nuestro correo electrónico **** a través de nuestras redes sociales.",
+      "Para cualquier consulta o requerimiento, puede escribirnos a **** o comunicarse a través de nuestras redes sociales.",
+      "Estamos disponibles para ayudarle en **** y también puede enviarnos mensajes por nuestras redes sociales.",
+      "Puede enviar sus consultas al correo **** o contactarnos a través de nuestras plataformas sociales.",
+      "Para asistencia, puede escribir a **** o interactuar con nosotros en nuestras redes sociales.",
+      "Le informamos que puede contactar con nuestro equipo de soporte mediante el correo electrónico ****. Alternativamente, también puede seguir nuestras redes sociales para obtener asistencia y actualizaciones rápidas.",
+      "Si necesita soporte, le recomendamos que nos escriba a **** También puede seguirnos en nuestras redes sociales, donde estamos disponibles para atender sus consultas y comentarios."
+    ]
+  }
+}
