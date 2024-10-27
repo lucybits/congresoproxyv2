@@ -1,0 +1,83 @@
+.trusters-section {
+  text-align: center;
+  background-color: rgb(6, 9, 39);
+  padding: 40px 20px;
+  width: 90%;
+  max-width: 1400px;
+  border: 1px solid rgba(65, 168, 175, 0.142);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.105);
+  margin: 0 auto;
+  margin-top: -10vh;
+}
+
+.trusters-header {
+  padding: 15px;
+  font-size: 2.2rem;
+  color: #9fc1f3;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #9fc1f3, #025293);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  transition: all 0.4s ease;
+}
+
+.trusters-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px;
+}
+
+.truster-logo {
+  width: 150px;
+  max-width: 25%;
+  min-width: 120px;
+  height: auto;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(59%) sepia(81%) saturate(500%) hue-rotate(173deg) brightness(91%) contrast(92%);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.truster-logo:hover {
+  transform: scale(1.1);
+  filter: brightness(0) saturate(100%) invert(59%) sepia(81%) saturate(600%) hue-rotate(173deg) brightness(100%) contrast(95%);
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(78, 144, 243, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(78, 144, 243, 0.8);
+  }
+}
+
+@media (max-width: 768px) {
+  .trusters-section {
+    padding: 30px 30px;
+    margin: 0 auto;
+    width: 85%;
+  }
+
+  .truster-logo {
+    max-width: 35%;
+  }
+}
+
+@media (max-width: 480px) {
+  .trusters-section {
+    padding: 25px 10px;
+    width: 95%;
+  }
+
+  .truster-logo {
+    max-width: 50%;
+  }
+}

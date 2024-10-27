@@ -1,0 +1,116 @@
+.contact-info {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 30px;
+    border-radius: 20px;
+    color: #9ca4f4;
+  }
+  
+  .contact-info h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 50px;
+    position: relative;
+    background: linear-gradient(135deg, #c8cbff 0%, #1b6bff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 4px 12px rgba(156, 164, 244, 0.2);
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    padding-bottom: 15px;
+  }
+  
+  .contact-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 0;
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .contact-item {
+    padding: 30px;
+    border-radius: 15px;
+  }
+  
+  .contact-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(111, 135, 253, 0.598);
+  }
+  
+  .contact-item p {
+    line-height: 1.8;
+    margin: 12px 0;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: #8296d1;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tag.facebook {
+    background-color: transparent;
+    border: 1px solid rgb(49, 81, 132);
+  }
+  
+  .tag.twitter {
+    background-color: transparent;
+    border: 1px solid rgba(215, 215, 255, 0.616);
+  }
+  
+  .tag.instagram {
+    background-color: transparent;
+    border: 1px solid #df4c71d1;
+  }
+
+  .tag.tiktok {
+    background-color: transparent;
+    border: 1px solid rgb(109, 42, 255);
+  }
+
+  .social-links a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  @media (max-width: 768px) {
+    .contact-info {
+      padding: 30px 15px;
+    }
+  
+    .contact-info h2 {
+      font-size: 2.2rem;
+    }
+  
+    .contact-details {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 10px;
+    }
+  
+    .contact-item {
+      padding: 25px;
+      margin: 0;
+    }
+  
+    .social-links {
+      justify-content: center;
+      gap: 15px;
+    }
+  }

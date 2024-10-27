@@ -1,15 +1,25 @@
 /* App.css */
 
 body {
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    min-height: 100vh;
     font-family: 'Public Sans', sans-serif;
     background: #040721;
-    min-height: 100vh;
     color: #fff;
     overflow-y: auto;
     overflow-x: hidden;
     position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
 }
 
 ::-webkit-scrollbar {

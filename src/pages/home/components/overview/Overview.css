@@ -1,0 +1,227 @@
+.overview-container {
+  padding: 20px;
+  border-radius: 16px;
+  margin-top: 4vh;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #9ca4f4;
+}
+
+@media (min-width: 768px) {
+  .overview-container {
+    padding: 40px;
+    width: 90%;
+    margin-top: 8vh;
+  }
+}
+
+.overview-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .overview-content {
+    gap: 40px;
+  }
+}
+
+.logo-and-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .logo-and-description {
+    gap: 30px;
+  }
+}
+
+.pattern-left,
+.pattern-right {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .pattern-left,
+  .pattern-right {
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(90px);
+    opacity: 0.5;
+    z-index: -1;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .pattern-left {
+    left: -180px;
+    width: 350px;
+    height: 350px;
+    background: rgba(30, 33, 219, 0.427);
+  }
+
+  .pattern-right {
+    right: -80px;
+    width: 150px;
+    height: 150px;
+    background: rgb(26, 113, 212);
+  }
+}
+
+.logo-image {
+  width: 200px;
+  height: auto;
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0 4px 12px rgba(74, 144, 226, 0.2)) opacity(0.7);
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .logo-image {
+    width: 300px;
+  }
+}
+
+.logo-image:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 8px 16px rgba(74, 144, 226, 0.3));
+}
+
+.overview-description {
+  max-width: 100%;
+  line-height: 1.6;
+  font-size: 1rem;
+  letter-spacing: 0.015em;
+  color: #a8b0f8;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background: rgba(23, 52, 133, 0.138);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(18, 59, 136, 0.398);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+}
+
+@media (min-width: 768px) {
+  .overview-description {
+    max-width: 1000px;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    padding: 30px;
+  }
+}
+
+.highlight {
+  color: #4a90e2;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 4px 8px;
+  margin: 0 2px;
+  transition: all 0.3s ease;
+}
+
+.highlight:hover {
+  background: linear-gradient(120deg, rgba(74, 144, 226, 0.18), rgba(74, 144, 226, 0.24));
+  transform: translateY(-1px);
+}
+
+.counters-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  width: 100%;
+  padding: 16px;
+}
+
+@media (min-width: 576px) {
+  .counters-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .counters-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+    padding: 24px;
+  }
+}
+
+.counter {
+  padding: 20px 16px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .counter {
+    padding: 30px 24px;
+  }
+}
+
+.counter:hover {
+  transform: translateY(-4px);
+}
+
+.counter-number {
+  font-size: 3em;
+  font-weight: 700;
+  background: linear-gradient(45deg, #7dbaff, #0140a4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .counter-number {
+    font-size: 4.5em;
+  }
+}
+
+.counter-text {
+  margin: 8px 0 0;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+@media (min-width: 768px) {
+  .counter-text {
+    margin: 12px 0 0;
+    font-size: 1.1rem;
+  }
+}
+
+.divider {
+  margin: 24px 0;
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, rgba(42, 119, 250, 0.5), transparent);
+  width: 95%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 768px) {
+  .divider {
+    margin: 40px 0;
+    width: 90%;
+  }
+}

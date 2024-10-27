@@ -1,7 +1,9 @@
+import ContactInfo from "./components/contact-info/ContactInfo";
+
 const Contact = () => {
   return (
-    <div className="contact-container">
-      <h1>Contacto</h1>
+    <div>
+      <ContactInfo />
     </div>
   );
 };

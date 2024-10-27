@@ -1,6 +1,6 @@
 .footer {
   margin-top: 10vh;
-  background: linear-gradient(to bottom, #01031b, #020529);
+  background: linear-gradient(to bottom, #010419, #010317);
   color: #859bbf;
   padding: 40px 20px;
   text-align: center;
@@ -87,6 +87,7 @@
     padding: 10px 15px;
     border-radius: 10px;
 }
+
 @keyframes heartbeat {
   0%,
   100% {
@@ -102,9 +103,11 @@
 }
 
 @media (max-width: 768px) {
+  .footer {
+    margin-top: 30vh;
+  }
   .footer-content {
     grid-template-columns: 1fr;
-    margin-top: 15vh;
   }
 
   .footer-links {

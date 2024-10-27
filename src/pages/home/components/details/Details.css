@@ -1,0 +1,91 @@
+.details-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  padding: 70px;
+  width: 85%;
+  border-radius: 20px;
+  background-color: #03103a71;
+}
+.details-card {
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background: linear-gradient(145deg, #01041f, #01112b);
+  border: 2px solid #000930;
+  box-shadow: 3px 3px 0px #052443;
+  color: #79acff;
+}
+
+.details-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 5px 0px #235588;
+}
+
+.details-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #1077c170;
+  padding-bottom: 5px;
+  text-shadow: 2px 2px #050a0f;
+}
+
+.details-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-shadow: 1px 1px #050a0f;
+}
+
+@media (max-width: 1200px) {
+  .details-grid {
+    width: 90%;
+    padding: 50px;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .details-grid {
+    width: 95%;
+    padding: 30px;
+    gap: 20px;
+  }
+  
+  .details-card h2 {
+    font-size: 1.3rem;
+  }
+  
+  .details-card p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .details-grid {
+    width: 100%;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .details-card {
+    padding: 15px;
+  }
+  
+  .details-card h2 {
+    font-size: 1.2rem;
+  }
+  
+  .details-card p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .details-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .details-card {
+    padding: 12px;
+  }
+}
