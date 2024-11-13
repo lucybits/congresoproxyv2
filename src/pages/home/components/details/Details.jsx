@@ -4,7 +4,7 @@ const Details = () => {
   return (
     <div className="details-grid">
       <div className="details-card">
-        <h2>El Congreso</h2>
+        <h2>El congreso...</h2>
         <p>
           El Congreso PROXY es un evento anual organizado por estudiantes del Instituto Tecnológico de
           Hermosillo, diseñado para reunir a estudiantes, académicos y profesionales
@@ -12,7 +12,7 @@ const Details = () => {
         </p>
       </div>
       <div className="details-card">
-        <h2>Objetivo</h2>
+        <h2>Visión</h2>
         <p>
           Crear un espacio de intercambio de conocimientos y experiencias en el ámbito
           tecnológico, deseamos fomentar la innovación y desarrollo profesional.

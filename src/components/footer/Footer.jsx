@@ -41,7 +41,6 @@ const Footer = () => {
       <div className="footer-divider"></div>
 
       <div className="sponsors-section">
-        {/* seccion para logos de patrocinadores */}
       </div>
 
       <div className="footer-bottom">

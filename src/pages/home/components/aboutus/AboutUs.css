@@ -84,8 +84,8 @@
 }
 
 .right-square .cta-button {
-    background-color: transparent;
-    color: #358dff;  
+    background-color: #358dff;
+    color: #1a1e2e;
     padding: 10px 20px;
     border: 1px solid #358dff;
     border-radius: 8px;
@@ -93,18 +93,12 @@
     cursor: pointer;
     transition: all 0.3s ease;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 14px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     box-shadow: 0 4px 6px rgba(79, 179, 255, 0.1);
 }
 
-.right-square .cta-button:hover {
-    background-color: #358dff;
-    color: #1a1e2e;
-    transform: translateY(-3px);
-    box-shadow: 0 6px 12px rgba(79, 179, 255, 0.2);
-}
 
 .right-square .cta-button:active {
     transform: translateY(-1px);

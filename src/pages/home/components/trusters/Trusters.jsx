@@ -7,9 +7,10 @@ const Trusters = () => {
       <div className="trusters-logos">
         <img src="/aviada.png" alt="Logo Aviada" className="truster-logo" />
         <img src="/interlogic.png" alt="Logo Interlogic" className="truster-logo" />
-        <img src="/fumidic.png" alt="Logo Fumidic" className="truster-logo" />
-        <img src="/intugo.png" alt="Logo Intugo" className="truster-logo" />
         <img src="/necodex.png" alt="Logo Necodex" className="truster-logo" />
+        <img src="/compup.png" alt="Logo Compuprovedores" className="truster-logo" />
+        <img src="/firepit-logo-r.svg" alt="Logo Firepit" className="truster-logo" />
+        <img src="/intugo.png" alt="Logo Intugo" className="truster-logo" />
       </div>
     </div>
   );

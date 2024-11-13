@@ -1,6 +1,7 @@
   import Lottie from 'lottie-react';
   import animationData from '../../../../data/Animation - 1727574432451.json'; 
   import './Banner.css';
+  import { Link } from 'react-router-dom';
 
   const Banner = () => {
     return (
@@ -12,8 +13,7 @@
             Únete a nosotros para una experiencia inolvidable llena de aprendizaje y networking.
           </p>
           <div className="banner-buttons">
-            <button className="banner-button">Ver paquetes</button>
-            <button className="banner-button">Contacto</button>
+            <Link to="/contact" className="banner-button">Contacto</Link>
           </div>
         </div>
         <div className="banner-animation">

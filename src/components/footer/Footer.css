@@ -1,7 +1,7 @@
 .footer {
   margin-top: 10vh;
   background: linear-gradient(to bottom, #010419, #010317);
-  color: #859bbf;
+  color: #7daeeb;
   padding: 40px 20px;
   text-align: center;
   font-family: "Inter", sans-serif;
@@ -43,7 +43,7 @@
 }
 
 .footer-link {
-  color: #859bbf;
+  color: #7daeeb;
   text-decoration: none;
   font-size: 16px;
   transition: color 0.3s ease;
@@ -65,7 +65,7 @@
 .footer-bottom {
   margin-top: 20px;
   font-size: 14px;
-  color: #7ca8ef;
+  color: #7daeeb;
   text-align: center;
   width: 100%;
   grid-column: 1 / -1;
@@ -104,7 +104,7 @@
 
 @media (max-width: 768px) {
   .footer {
-    margin-top: 30vh;
+    margin-top: 10vh;
   }
   .footer-content {
     grid-template-columns: 1fr;

@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 30px;
+  top: 10px;
+  padding: 15px 50px;
   background: linear-gradient(135deg, #081244, #121238);
   border-radius: 30px;
   width: 90%;
@@ -23,6 +24,7 @@
 .navbar-logo img:hover {
   filter: drop-shadow(0 0 20px rgb(22, 189, 255));
 }
+
 .navbar-list {
   list-style-type: none;
   display: flex;
@@ -42,7 +44,7 @@
 }
 
 .navbar-item a {
-  color: #c3ceffc9;
+  color: #7daeeb;
   text-decoration: none;
 }
 
@@ -55,16 +57,20 @@
   background: linear-gradient(90deg, #6366f1, #5cacf6);
   padding: 12px 25px;
   border-radius: 25px;
-  font-weight: 600;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   transition: all 0.3s ease;
-  text-decoration: none;
   display: inline-block;
   position: relative;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+}
+
+.contact a {
+  color: white; 
+  font-size: 14px;
+  text-decoration: none; 
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .contact::before {
