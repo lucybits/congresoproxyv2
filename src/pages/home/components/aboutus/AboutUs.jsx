@@ -1,4 +1,5 @@
 import "./AboutUs.css";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
@@ -9,8 +10,7 @@ const AboutUs = () => {
           <h1>Congreso PROXY 2025</h1>
           <h2>La innovación está aquí</h2>
           <p>
-            Descubre el futuro de la tecnología en un evento exclusivo para
-            líderes emergentes en Sistemas Computacionales e Informática.
+          Conéctate con mentes brillantes, súmate a explorar tendencias revolucionarias y SÉ parte del cambio, en este evento exclusivo conformado por líderes de Sistemas Computacionales e Informática.
           </p>
           <div className="features">
             <div className="feature">
@@ -65,7 +65,10 @@ const AboutUs = () => {
               <span>Networking estratégico</span>
             </div>
           </div>
-          <button className="cta-button">Registros próximamente</button>
+          <div>
+            <Link to="/packages" className="cta-button">Ver paquetes de Carnets</Link>
+            <span className="new-tag">Nuevo</span>
+          </div>
           <p className="policy-note">
             * Al registrarte, aceptas las políticas de Congreso PROXY
           </p>

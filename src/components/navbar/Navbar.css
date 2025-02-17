@@ -3,8 +3,8 @@
   align-items: center;
   justify-content: space-between;
   top: 10px;
-  padding: 15px 50px;
-  background: linear-gradient(135deg, #081244, #121238);
+  padding: 15px 40px;
+  background: linear-gradient(135deg, #151515, #191919);
   border-radius: 30px;
   width: 90%;
   max-width: 1200px;
@@ -17,12 +17,12 @@
 .navbar-logo img {
   height: 50px;
   width: auto;
-  filter: drop-shadow(0 0 2px rgb(11, 60, 60));
+  filter: drop-shadow(0 0 2px #007BFF);
   transition: filter 0.3s ease;
 }
 
 .navbar-logo img:hover {
-  filter: drop-shadow(0 0 20px rgb(22, 189, 255));
+  filter: drop-shadow(0 0 20px #00D8FF);
 }
 
 .navbar-list {
@@ -44,28 +44,23 @@
 }
 
 .navbar-item a {
-  color: #7daeeb;
+  color: white;
   text-decoration: none;
 }
 
-.navbar-item a:hover {
-  color: #ffffff;
-  transform: translateY(-2px);
-}
-
 .contact {
-  background: linear-gradient(90deg, #6366f1, #5cacf6);
+  background: linear-gradient(90deg, #FF00FF, #d00ec3);
   padding: 12px 25px;
   border-radius: 25px;
   transition: all 0.3s ease;
   display: inline-block;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+  box-shadow: 0 4px 12px rgba(255, 0, 255, 0.4);
 }
 
 .contact a {
-  color: white; 
+  color: #FFFFFF; 
   font-size: 14px;
   text-decoration: none; 
   text-transform: uppercase;
@@ -102,7 +97,7 @@
 .bar {
   height: 4px;
   width: 30px;
-  background-color: white;
+  background-color: #FFFFFF;
   margin: 3px 0;
   transition: 0.3s;
 }
@@ -119,7 +114,7 @@
     height: 100vh;
     width: 70%;
     max-width: 300px;
-    background-color: #121238;
+    background-color: #222222;
     flex-direction: column;
     justify-content: center;
     align-items: center;

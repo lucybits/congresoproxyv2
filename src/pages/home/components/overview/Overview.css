@@ -5,7 +5,6 @@
   width: 95%;
   margin-left: auto;
   margin-right: auto;
-  color: #7daeeb;
 }
 
 @media (min-width: 768px) {
@@ -48,34 +47,55 @@
 
 .pattern-left,
 .pattern-right {
-  display: none;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+  opacity: 0.5;
+  z-index: -1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.pattern-left {
+  left: -80px;
+  width: 200px;
+  height: 200px;
+  background: rgba(60, 118, 255, 0.407);
+}
+
+.pattern-right {
+  right: -40px;
+  width: 100px;
+  height: 100px;
+  background: rgb(75, 255, 216);
+}
+
+@media (min-width: 768px) {
+  .pattern-left {
+    left: -120px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .pattern-right {
+    right: -60px;
+    width: 120px;
+    height: 120px;
+  }
 }
 
 @media (min-width: 1024px) {
-  .pattern-left,
-  .pattern-right {
-    display: block;
-    position: absolute;
-    border-radius: 50%;
-    filter: blur(90px);
-    opacity: 0.5;
-    z-index: -1;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
   .pattern-left {
     left: -180px;
     width: 350px;
     height: 350px;
-    background: rgba(30, 33, 219, 0.427);
   }
 
   .pattern-right {
     right: -80px;
     width: 150px;
     height: 150px;
-    background: rgb(26, 113, 212);
   }
 }
 
@@ -83,7 +103,7 @@
   width: 200px;
   height: auto;
   transition: transform 0.3s ease;
-  filter: drop-shadow(0 4px 12px rgba(74, 144, 226, 0.2)) opacity(0.7);
+  filter: drop-shadow(0 4px 12px rgba(0, 123, 255, 0.3)) opacity(0.9);
   position: relative;
   z-index: 1;
 }
@@ -96,7 +116,7 @@
 
 .logo-image:hover {
   transform: scale(1.05);
-  filter: drop-shadow(0 8px 16px rgba(74, 144, 226, 0.3));
+  filter: drop-shadow(0 8px 16px rgba(0, 216, 255, 0.4));
 }
 
 .overview-description {
@@ -104,15 +124,13 @@
   line-height: 1.6;
   font-size: 1rem;
   letter-spacing: 0.015em;
-  color: #7daeeb;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  background: rgba(23, 52, 133, 0.138);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.26);
+  background: rgba(26, 25, 25, 0.8);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(18, 59, 136, 0.398);
+  border: 1px solid rgba(62, 67, 74, 0.582);
   border-radius: 15px;
   padding: 20px;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
 }
 
 @media (min-width: 768px) {
@@ -126,16 +144,10 @@
 }
 
 .highlight {
-  color: #4a90e2;
-  font-weight: 600;
+  color: #09ffda;
   border-radius: 6px;
   margin: 0 2px;
   transition: all 0.3s ease;
-}
-
-.highlight:hover {
-  background: linear-gradient(120deg, rgba(74, 144, 226, 0.18), rgba(74, 144, 226, 0.24));
-  transform: translateY(-1px);
 }
 
 .counters-container {
@@ -181,7 +193,7 @@
 .counter-number {
   font-size: 3em;
   font-weight: 700;
-  background: linear-gradient(45deg, #7dbaff, #0140a4);
+  background: linear-gradient(45deg, #007BFF, #00D8FF);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -213,7 +225,7 @@
   margin: 24px 0;
   border: none;
   height: 2px;
-  background: linear-gradient(to right, transparent, rgba(42, 119, 250, 0.5), transparent);
+  background: linear-gradient(to right, transparent, rgba(0, 123, 255, 0.5), transparent);
   width: 95%;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }

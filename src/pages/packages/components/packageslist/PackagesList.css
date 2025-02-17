@@ -1,0 +1,228 @@
+.packages-container {
+    padding: 6rem 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .offer-tag {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin: auto;
+    color: #00b3b3;
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 179, 179, 0.1);
+    border: 1px solid rgba(100, 250, 255, 0.181);
+    border-radius: 12px;
+    display: block;
+    width: fit-content;
+    transition: all 0.2s ease;
+  }
+  
+  #phrase {
+    text-align: center;
+    font-size: 2.4rem;
+    margin: 2.5rem auto;
+    max-width: 600px;
+    line-height: 1;
+    font-weight: 600;
+    color: rgba(218, 218, 223, 0.945);
+  }
+  
+  #phrase div {
+    margin-top: 2rem;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .packages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 500;
+  }
+  
+  .package-item {
+    padding: 2rem;
+    border: 1px solid rgb(84, 84, 84);
+    border-radius: 12px;
+    background-color: #1a1a1aca;
+    position: relative;
+    font-weight: 500;
+  }
+  
+  .gigabyte-package {
+    background: linear-gradient(135deg, rgb(5, 57, 162) 0%, rgb(19, 236, 229) 100%);
+    border: 1px solid rgba(0, 123, 255, 0.181);
+  }
+  
+  .bestseller-badge {
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    background: #fff93d;
+    color: #000;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .gigabyte-package h3 {
+    color: black !important;
+    font-size: 1.5rem;
+    font-weight: 600 !important;
+  }
+  
+  .gigabyte-text {
+    color: black !important;
+    font-weight: 500;
+  }
+  
+  .gigabyte-package li:before {
+    color: #00d8ff !important;
+  }
+  
+  .gigabyte-package .price {
+    color: black !important;
+  }
+  
+  .package-item h3 {
+    color: #3697ff;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .package-item p {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .package-item ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .package-item li {
+    margin-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    position: relative;
+    font-weight: 500;
+  }
+  
+  .package-item li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #00b3b3;
+  }
+  
+  .price {
+    font-weight: 700 !important;
+    color: #00b3b3 !important;
+    font-size: clamp(1.5rem, 3vw, 2rem) !important;
+    line-height: 1.2;
+    margin-top: 1rem;
+    display: block;
+    text-align: left;
+  }
+  
+  .price-text {
+    color: rgb(238, 32, 221);
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  .purchase-info {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: rgba(15, 15, 15, 0.8);
+    border-radius: 12px;
+    color: rgba(218, 218, 223, 0.945);
+    line-height: 1.6;
+    font-size: 0.95rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .packages-container {
+      padding: 4rem 1rem;
+    }
+  
+    .offer-tag {
+      font-size: 1.1rem;
+    }
+  
+    #phrase {
+      font-size: 2rem;
+    }
+  
+    #phrase div {
+      font-size: 18px;
+    }
+  
+    .packages-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  
+    .package-item h3 {
+      font-size: 1.7rem;
+    }
+  
+    .package-item p,
+    .package-item li {
+      font-size: 1.1rem;
+    }
+  
+    .bestseller-badge {
+      font-size: 1.1em;
+    }
+  
+    .price {
+      font-size: clamp(1.8rem, 4vw, 2.2rem) !important;
+      text-align: left;
+    }
+  
+    .price-text {
+      font-size: 1.3rem;
+    }
+
+    .purchase-info {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .packages-container {
+      padding: 3rem 1rem;
+    }
+  
+    #phrase {
+      font-size: 1.8rem;
+    }
+  
+    .package-item {
+      padding: 1.5rem;
+    }
+  
+    .price {
+      font-size: clamp(1.5rem, 4.5vw, 2rem) !important;
+      text-align: left;
+    }
+  
+    .price-text {
+      font-size: 1.2rem;
+    }
+
+    .purchase-info {
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  }

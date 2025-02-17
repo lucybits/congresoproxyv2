@@ -1,8 +1,13 @@
 import './Packages.css';
+import Banner from './components/banner/Banner';
+import PackagesList from './components/packageslist/PackagesList';
 
 const Packages = () => {
     return (
-    <div className="packages">Paquetes</div>
+    <>
+        <Banner />
+        <PackagesList />
+    </>
     );
     }
 

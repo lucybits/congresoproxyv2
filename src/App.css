@@ -1,11 +1,16 @@
-/* App.css */
+@font-face {
+    font-family: 'Chirp';
+    src: url('./assets/fonts/Chirp-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     width: 100%;
     min-height: 100vh;
-    font-family: 'Public Sans', sans-serif;
-    background: #040721;
-    color: #fff;
+    font-family: 'Chirp', sans-serif;
+    background: #0a0a0a;
+    color:#e1e1e1;
     overflow-y: auto;
     overflow-x: hidden;
     position: relative;

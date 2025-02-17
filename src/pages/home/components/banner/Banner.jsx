@@ -1,5 +1,5 @@
   import Lottie from 'lottie-react';
-  import animationData from '../../../../data/Animation - 1727574432451.json'; 
+  import animationData from '../../../../data/Animation - 1739735192487.json'; 
   import './Banner.css';
   import { Link } from 'react-router-dom';
 

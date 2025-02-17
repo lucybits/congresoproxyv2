@@ -27,16 +27,9 @@
   gap: 40px;
   padding: 40px;
   border-radius: 24px;
-  background: rgba(11, 16, 46, 0.322);
+  background: rgba(36, 36, 37, 0.322);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(63, 108, 199, 0.412);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
   transition: all 0.3s ease;
-}
-
-.vision-content:hover {
-  background: rgba(5, 17, 56, 0.568);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
 
 .vision-image {
@@ -60,7 +53,7 @@
 }
 
 .vision-text h3 {
-  color: #76baff;
+  color: #00D8FF;
   font-size: 1.8rem;
   margin-bottom: 15px;
   font-weight: 600;
@@ -75,7 +68,6 @@
 }
 
 .vision-text p {
-  color: #b8d8ff;
   font-size: 1.1rem;
   line-height: 1.7;
   padding: 15px;

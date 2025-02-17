@@ -36,7 +36,7 @@ body {
   font-size: 1.2em;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #7daeeb;
+  color: #00D8FF;
   margin-bottom: 15px;
 }
 
@@ -46,15 +46,14 @@ body {
   margin: 0;
   max-width: 75%;
   line-height: 1.1;
-  background: linear-gradient(to right, #6f90c8, #4ae7ff);
+  background: linear-gradient(to right, #007BFF, #14dcff);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  text-shadow: 0 0 30px rgba(161, 193, 239, 0.2);
+  text-shadow: 0 0 30px rgba(0, 123, 255, 0.2);
 }
 
 .banner-description {
-  color: #7daeeb;
   font-size: 1.2em;
   margin-bottom: 5px;
   max-width: 550px;
@@ -68,10 +67,10 @@ body {
 }
 
 .banner-button {
-  padding: 10px 20px;
+  padding: 10px 30px;
   margin-top: 20px;
   margin-right: 15px;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -80,13 +79,13 @@ body {
   cursor: pointer;
   outline: none;
   text-decoration: none;
-  background: linear-gradient(to right, #225187, #199dba);
-  color: white;
+  background: linear-gradient(to right, #007BFF, #072580);
+  color: #e1e1e1;
   border: none;
 }
 
 .banner-button:hover {
-  background: linear-gradient(to right, #199dba, #225187);
+  background: linear-gradient(to right, #ff58ac, #7d136d);
   transform: translateY(-2px);
 }
 
@@ -165,8 +164,8 @@ body {
     margin: 10px 0;
     width: 100%;
     max-width: 280px;
-    font-size: 1.1em;
-    padding: 12px 24px;
+    font-size: 1.2em;
+    padding: 15px 30px;
   }
 
   .banner-animation {
@@ -194,7 +193,7 @@ body {
   }
 
   .banner-button {
-    font-size: 1em;
-    padding: 10px 20px;
+    font-size: 1.1em;
+    padding: 12px 24px;
   }
 }
